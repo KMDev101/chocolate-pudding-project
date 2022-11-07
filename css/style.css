@@ -185,7 +185,6 @@ ul li,
 ol li {
     font-size: 1rem;
     line-height: 23px;
-    margin-bottom: 20px;
 }
 
 /* Helper classes end */
@@ -218,7 +217,7 @@ h2 {
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 40px 20px 90px 20px;
     position: relative;
     overflow: hidden;
 }
@@ -287,7 +286,7 @@ h2 {
 }
 
 .iphone {
-    width: 80%;
+    width: 85%;
     position: relative;
     margin-bottom: -220px;
 }
@@ -342,12 +341,14 @@ h2 {
     overflow: hidden;
     margin-top: 50px;
 }
+
 .row h3 {
     font-size: 23px;
     text-transform: uppercase;
     font-weight: 700;
     margin: 30px 0;
 }
+
 .col-4-app {
     width: 33.33%;
     float: left;
@@ -359,4 +360,186 @@ h2 {
     font-size: 18px;
     line-height: 24px;
     color: #646464;
+}
+
+/* Nose section */
+#nose {
+    background: url('../img/nose-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#nose .container {
+    padding: 0;
+}
+
+#nose h2 {
+    margin-bottom: 40px;
+    color: #fff;
+    line-height: 4rem;
+}
+
+.nose-p {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'HelveticaNeue-Thin';
+    padding-bottom: 30px;
+}
+
+.download-info {
+    width: 50%;
+    padding: 200px 0;
+}
+
+.download-btn {
+    background: #d9332d;
+    padding: 15px;
+    border-radius: 999px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+    color: #fff;
+    font-family: 'HelveticaNeue-Thin';
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.download-btn:hover {
+    background: #c33934;
+    transition: 0.3s;
+}
+
+.reddish {
+    color: #f55150;
+}
+
+/* Footer */
+footer {
+    background: #2e2e38;
+}
+
+footer .container {
+    padding: 120px 20px;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer p {
+    font-family: 'HelveticaNeue-Thin';
+}
+
+.col-4-footer {
+    width: 33.33%;
+    float: left;
+    margin-top: 75px;
+    color: #fff;
+    padding: 30px;
+}
+
+.ul-posts,
+.ul-tweets {
+    margin-top: 25px;
+    font-family: 'HelveticaNeue-Thin';
+}
+
+.ul-posts li {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.reddish-bg {
+    background: url('../img/rectangle.png') no-repeat;
+    padding-left: 70px;
+}
+
+.block {
+    display: block;
+}
+
+.p-about {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.ul-tweets li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.smalltext {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+/* copyright */
+#copyright {
+    background: #d7dedc;
+}
+
+#copyright .container {
+    padding: 40px;
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.cr,
+.me {
+    margin-right: 40px;
+}
+
+.fb,
+.tw {
+    margin-right: 10px;
+}
+
+.cr::after,
+.me::after {
+    content: "";
+    border: 1px solid #555;
+    margin-left: 35px;
+}
+
+/* iphone animation */
+.iphone-on {
+    position: absolute;
+    right: 174px;
+    top: 108px;
+    width: 54%;
+}
+
+.iphone-btn {
+    position: absolute;
+    right: 200px;
+}
+
+.js-wp-2 {
+    opacity: 0;
+}
+.js-wp-2.animate__animated {
+    opacity: 1;
+}
+
+.js-wp-3 {
+    opacity: 0;
+    animation-delay: 2.7s;
+}
+.js-wp-3.animate__animated {
+    opacity: 1;
 }
