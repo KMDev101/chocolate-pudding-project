@@ -495,10 +495,13 @@ footer p {
 
 .inline {
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     vertical-align: middle;
 }
-
+.inline a {
+    color: #000;
+    text-decoration: none;
+}
 .cr,
 .me {
     margin-right: 40px;
