@@ -546,3 +546,11 @@ footer p {
 .js-wp-3.animate__animated {
     opacity: 1;
 }
+
+/* Media Queries / Responsive */
+
+@media only screen and (max-width: 1240px) {
+    .cta-info {
+        padding-right: 40px;
+    }
+}
