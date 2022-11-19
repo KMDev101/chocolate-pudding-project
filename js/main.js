@@ -27,6 +27,6 @@ $(document).ready(function () {
     });
 
     $(".iphone-btn").delay(2300).animate({ bottom: "+=-3" }, 300);
-    $(".iphone-btn").delay(300).animate({ top: "+=-3" }, 100);
+    $(".iphone-btn").delay(300).animate({ top: "+=-2" }, 100);
 
 });
